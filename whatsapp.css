@@ -1,0 +1,160 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+.link:hover{
+    background-color: red;
+    color:gray;
+}
+a:hover{
+    background-color: red;
+}
+
+@media screen and (max-width:695px){
+#allimagediv{
+    width:10%;
+}
+a:hover{
+    background-color:blue;
+    color:green;
+}
+a:focus{
+    background-color: blue;
+}
+#rightdiv{
+    width:88%;
+}
+#allrightnametime,#allrightstickermessagecount{
+    display: flex;
+    justify-content: space-between;
+}
+#allrightstickermessagecount{
+margin-top:5px;
+align-items: center;
+}
+.footerbut:hover{
+    background-color: red;
+
+}
+#statusdiv{
+    margin-top:20px;
+}
+.messagecount{
+    padding:0.25rem 0.4rem 0.25rem 0.4rem;
+    font-size:12px;
+}
+.rightfixedchild1{
+    box-sizing: border-box;
+    padding:5px;
+    padding-bottom: 8px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    right:10px;
+    border-radius: 10px;;
+    
+    background-color: gray;
+}
+.rightfixed{
+
+}
+/* .rightfixedcover1{
+    padding:10px;
+    box-sizing: border-box;
+} */
+
+.rightfixedchild2{
+    padding:15px ;
+    float:right;
+    border-radius: 10px;
+    clear: both;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: green;
+
+}
+
+}
+@media (max-width:795px){
+    #findchannels{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    #findchannels h4{
+        font-size:24px;
+    }
+
+    #findchannels a{
+        text-decoration: none;
+        font-size:18px;
+    }
+    #findchannels a:hover{
+        background-color: transparent;
+    }
+}
+
+.chan{
+
+    height:620px;
+    overflow-y: scroll;
+    
+
+
+}
+@media (max-width:795px){
+    #follow{
+        overflow-x: scroll;
+        display:flex;
+        padding-right:20px;
+        /* padding-bottom: 30px; */
+        height:200px;
+        justify-content: space-between;
+
+    }
+    #follow #box{
+        width:150px !important;
+        text-align: center;
+        padding:18px 5px ;
+        border:1px solid black;
+        margin-right:10px;
+        
+        border-radius: 15px;
+        height:160px;
+        padding-bottom: 18px !important;
+
+        /* margin-left:15px; */
+/*         
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+
+        height:190px;
+        padding:6px 0px !important;
+        text-align: center;
+        border:1px solid black;
+        border-radius:10px; */
+
+    }
+    #follow p{
+        font-size: 13px;
+        font-weight:700;
+        padding-top:3px;
+        margin-top:5px !important;
+    }
+    #follow img{
+        width:50px;
+        border-radius: 100%;
+        height:50px;
+    }
+    #follow button{
+        background-color: lightgreen;
+       
+        padding:0.1em 2.5em;
+        border-radius:12px;
+    }
+    #follow button{
+        margin-bottom:  10px;;
+    }
+}
